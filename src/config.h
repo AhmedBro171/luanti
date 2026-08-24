@@ -12,18 +12,18 @@
 #if defined USE_CMAKE_CONFIG_H
 	#include "cmake_config.h"
 #elif defined (__ANDROID__)
-	#define PROJECT_NAME "minetest"
-	#define PROJECT_NAME_C "Minetest"
+	#define PROJECT_NAME "luanti"
+	#define PROJECT_NAME_C "Luanti"
 	#define STATIC_SHAREDIR ""
-	#define VERSION_STRING STR(VERSION_MAJOR) "." STR(VERSION_MINOR) "." STR(VERSION_PATCH) STR(VERSION_EXTRA)
+	#define VERSION_STRING "5.17.0"
 #ifdef NDEBUG
-		#define BUILD_TYPE "Release"
+		#define BUILD_TYPE "Debug"
 	#else
 		#define BUILD_TYPE "Debug"
 	#endif
 #else
 	#ifdef NDEBUG
-		#define BUILD_TYPE "Release"
+		#define BUILD_TYPE "Debug"
 	#else
 		#define BUILD_TYPE "Debug"
 	#endif
