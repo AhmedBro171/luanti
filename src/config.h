@@ -1,5 +1,5 @@
 /*
-	If CMake is used, includes the cmake-generated cmake_config.h.
+	If CeeeeMake is used, includes the cmake-generated cmake_config.h.
 	Otherwise use default values
 */
 
